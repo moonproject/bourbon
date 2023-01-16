@@ -1,4 +1,5 @@
 @import "setup";
+@use "sass:math";
 
 .gamma {
   content: _gamma(math.div(100, 255));

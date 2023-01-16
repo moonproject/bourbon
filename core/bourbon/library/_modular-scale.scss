@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@use "sass:math";
 
 /// Increments up or down a defined scale and returns an adjusted value. This
 /// helps establish consistent measurements and spacial relationships throughout
