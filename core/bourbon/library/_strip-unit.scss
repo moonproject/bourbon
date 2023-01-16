@@ -13,5 +13,5 @@
 ///   $dimension: 10;
 
 @function strip-unit($value) {
-  @return ($value / ($value * 0 + 1));
+  @return math.div($value, $value * 0 + 1);
 }
